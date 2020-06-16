@@ -1,3 +1,14 @@
+'''
+ It iterates by comparing elements pairwise and swapping adjacent elements if they are not in order. 
+ The iteration loops itself by how many elements there are in the array, but one less for every consecutive iteration because one more element will be in its correct position for every loop. 
+ For an optimised bubble sort, iterating by the number of elements in the array is gratuitous, for the algorithm understands that the array is already sorted, hence will cease its continuation before returning the results, hence it is faster.
+
+Time Complexity:
+  Worse-case performance: O(n2)
+  Best-case performance: O(n)
+  Average performance: O(n2)
+  
+'''
 import random
 
 def BubbleSort(array):
