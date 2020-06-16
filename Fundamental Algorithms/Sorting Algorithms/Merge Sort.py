@@ -31,7 +31,8 @@ def MergeSort(array):
   
   if len(array) <= 1: #base case
     return array
-   else:
+  
+  else:
     first = 0 
     last = len(array) - 1
     middle = (first + last) // 2
