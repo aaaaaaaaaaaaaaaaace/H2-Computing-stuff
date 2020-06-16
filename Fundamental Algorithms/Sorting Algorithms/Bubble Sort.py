@@ -13,3 +13,6 @@ def BubbleSort(array):
   return array
           
               
+arr = [random.randint(1,100) for i in range(10)]
+print(arr)
+print(BubbleSort(arr))
